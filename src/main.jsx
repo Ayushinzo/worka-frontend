@@ -102,7 +102,7 @@ createRoot(document.getElementById('root')).render(
     domain="dev-zb6btotxjimf4zdj.us.auth0.com"
     clientId="baBOVrv0UbFTRNreIiXwsuaVy2mxeOl0"
     authorizationParams={{
-      redirect_uri: `${import.meta.env.VITE_FRONTEND_URL}/user/dashboard`
+      redirect_uri: `https://worka-frontend.vercel.app/user/dashboard`
     }}
     cacheLocation="localstorage"
     useRefreshTokens={true}
