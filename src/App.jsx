@@ -50,7 +50,7 @@ function App() {
                 scope: 'openid profile email offline_access'
               }
             })}>Start Free Trial</Button>
-            <Button variant="outlined" size="large">Learn More</Button>
+{/*             <Button variant="outlined" size="large">Learn More</Button> */}
           </Stack>
         </div>
 
